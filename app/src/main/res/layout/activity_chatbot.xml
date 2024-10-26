@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/chatbot_view"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ChatbotActivity">
+
+    <LinearLayout
+        android:id="@+id/default_chat_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#E68FAB"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_above="@id/bottom_layout"
+        android:layout_marginEnd="80dp"
+        android:visibility="visible">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello! Are you looking for this?"
+            android:textColor="@android:color/white"
+            android:paddingBottom="4dp"
+            android:textSize="14sp"/>
+
+        <ListView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/default_chat_view"
+        android:layout_above="@+id/center_layout"
+        android:scrollbarSize="18dp"
+        app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable"
+        app:fastScrollHorizontalTrackDrawable="@drawable/line_drawable"
+        app:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable"
+        app:fastScrollVerticalTrackDrawable="@drawable/line_drawable"
+        app:fastScrollEnabled="true"
+        android:visibility="invisible"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/center_layout"
+        android:layout_above="@id/bottom_layout"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#E68FAB"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:layout_marginEnd="80dp">
+        <TextView
+            android:id="@+id/default_response"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:padding="8dp"
+            android:id="@+id/bottom_layout">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/message_edit_text"
+                android:layout_centerInParent="true"
+                android:hint="@string/edit_text_hint"
+                android:padding="16dp"
+                android:background="@drawable/rounded_corner"
+                android:layout_toLeftOf="@id/send_btn"/>
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/send_btn"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:padding="8dp"
+                android:src="@drawable/send_btn_icon"
+                android:background="?attr/selectableItemBackgroundBorderless"/>
+        </RelativeLayout>
+
+</RelativeLayout>

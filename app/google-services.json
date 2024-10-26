@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "928561996611",
+    "project_id": "cancer-survival-3b7f3",
+    "storage_bucket": "cancer-survival-3b7f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928561996611:android:4be854441d54deaa2245f6",
+        "android_client_info": {
+          "package_name": "com.me.tech4good_chatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928561996611-em9rmtrcma18mtgu7d995dm576frvglb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.me.tech4good_chatbot",
+            "certificate_hash": "25318bba6817018c76e36d0e45e68bd15668e48b"
+          }
+        },
+        {
+          "client_id": "928561996611-e16fken1e8t87o3o3igudemi84c923ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfgROXviRhjRmuU_DfW8OvUy5wHeYRx38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928561996611-e16fken1e8t87o3o3igudemi84c923ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928561996611:android:73e30dfa8f1355d22245f6",
+        "android_client_info": {
+          "package_name": "fyp.yuki.vitrox2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928561996611-ntolo2fbae2e8b6s9e0ghr5o34i0fve0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fyp.yuki.vitrox2",
+            "certificate_hash": "f192dd3c7b3cb49336d64816c0aea796f4efabd9"
+          }
+        },
+        {
+          "client_id": "928561996611-e16fken1e8t87o3o3igudemi84c923ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfgROXviRhjRmuU_DfW8OvUy5wHeYRx38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928561996611-e16fken1e8t87o3o3igudemi84c923ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928561996611:android:fec3b34bedc318b62245f6",
+        "android_client_info": {
+          "package_name": "my.edu.utar.tech4good"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928561996611-bo7vn0og2o909uk9qvqv8n7mqpu14s04.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.edu.utar.tech4good",
+            "certificate_hash": "25318bba6817018c76e36d0e45e68bd15668e48b"
+          }
+        },
+        {
+          "client_id": "928561996611-e16fken1e8t87o3o3igudemi84c923ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfgROXviRhjRmuU_DfW8OvUy5wHeYRx38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928561996611-e16fken1e8t87o3o3igudemi84c923ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#686666</color>
+    <color name="green">#6F8C4E</color>
+    <color name="light_green">#9ABF6E</color>
+    <color name="semi">#B3000000</color>
+    <color name="pink">#68FE87AF</color>
+    <color name="light_pink">#FD92B6</color>
+<!--    <color name="baby_pink">#F4C2C2</color>-->
+    <color name="baby_pink">#FD92B6</color>
+    <color name="colorPrimary">#FD92B6</color>
+    <color name="red">#FFF80404</color>
+</resources>

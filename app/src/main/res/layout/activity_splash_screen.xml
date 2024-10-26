@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/splashScreen_bg"
+            android:layout_width="258dp"
+            android:layout_height="619dp"
+            android:background="@drawable/splash_screen_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/splashScreen_image"
+            android:layout_width="390dp"
+            android:layout_height="346dp"
+            android:layout_marginTop="-20dp"
+            android:background="@drawable/splash"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/splashScreen_bg" />
+
+        <TextView
+            android:id="@+id/splashScreen_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amaranth"
+            android:text="BREASTIE"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:transitionName="splashscreen_title"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/splashScreen_bg"
+            app:layout_constraintVertical_bias="0.629" />
+
+        <TextView
+            android:id="@+id/splashScreen_subtitle"
+            android:layout_width="199dp"
+            android:layout_height="79dp"
+            android:text="You deserve second life"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:transitionName="splashscreen_subtitle"
+            app:layout_constraintBottom_toBottomOf="@+id/splashScreen_bg"
+            app:layout_constraintEnd_toEndOf="@+id/splashScreen_bg"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/splashScreen_bg"
+            app:layout_constraintVertical_bias="0.914" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
